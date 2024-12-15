@@ -11,6 +11,33 @@ A machine learning application that predicts student pass/fail outcomes using Ra
 - High prediction accuracy (>90%)
 - CSV data import functionality
 
+## Project Structure
+
+The main source code is located in `src/main/java/com/example/`:
+- `Main.java` - Application entry point and controller
+- `MainView.java` - GUI implementation
+- `RandomForest.java` - Core prediction model
+- `DecisionTree.java` - Decision tree implementation
+- `Node.java` - A data structure for student records
+- `DataLoader.java` - CSV file processing
+- `FeedbackAnalyzer.java` - Generates personalized feedback
+
+Test code is located in `src/test/java/com/example/`:
+- `TestSuite.java` - Contains all unit tests and integration tests
+
+## Requirements
+
+- Java JDK 8 or higher
+- Maven for dependency management
+- Minimum 4GB RAM recommended
+- Storage space for datasets
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YourUsername/student-prediction.git
+
 ## Requirements
 
 - Java JDK 8 or higher
@@ -66,7 +93,7 @@ Required CSV columns:
 - Sleep Hours (0-24)
 - And other relevant features
 
-See stuent_data.csv for format example.
+See stuent_data.csv for a format example.
 
 ## Testing
 
